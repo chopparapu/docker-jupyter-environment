@@ -30,5 +30,26 @@ This setup provides:
 ## ⚙️ How to Run the Container
 
 ### 1️⃣ Pull the image from Docker Hub
-```bash
+
 docker pull thinkingbeing11/jupyter-datascience:latest
+
+☁️ Docker Push–Pull Demonstration
+docker tag jupyter/datascience-notebook:latest thinkingbeing11/jupyter-datascience:latest
+docker push thinkingbeing11/jupyter-datascience:latest
+docker pull thinkingbeing11/jupyter-datascience:latest
+
+💻 GitHub Integration
+
+Repository → https://github.com/chopparapu/docker-jupyter-environment
+
+👨‍💻 Author
+
+Name: CH Karthik
+GitHub: @chopparapu
+
+📚 References
+
+Docker Docs → https://docs.docker.com
+
+
+
